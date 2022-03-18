@@ -23,6 +23,39 @@
   text-align: center;
 }
 
+@media screen and (max-width: 420px) {
+  
+  img {
+    margin-top: 2rem;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #lezioni .row {
+    background-color: #168d57;
+  }
+
+  #steps .row {
+    background-color: #fdd93b;
+  }
+
+  #why .row {
+    background-color: #f93f21;
+  }
+
+
+  .row {
+    margin-top: 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
